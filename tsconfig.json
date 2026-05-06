@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es2022",
+    "lib": ["ES2023"],
     "module": "es2022",
     "moduleResolution": "bundler",
+    "target": "ES2023",
     "rootDir": "./src",
     "strict": true,
     "noImplicitAny": true,
     "esModuleInterop": true,
-    "lib": ["ES2021.String"]
+    "types": ["node"]
   },
   "exclude": ["node_modules", "**/*.test.ts"]
 }
