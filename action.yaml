@@ -37,5 +37,5 @@ outputs:
   label_name:
     description: The name of the label that was created.
 runs:
-  using: "node20"
-  main: "dist/index.js"
+  using: node24
+  main: dist/index.js
