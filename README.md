@@ -23,7 +23,7 @@ That’s why we developed this action.
 ## Example Code
 
 ```yaml
-- uses: actions/create-github-app-token@v2
+- uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
   id: token
   with:
     app-id: ${{ vars.APP_ID }}
